@@ -10,7 +10,15 @@ import {
   Footer,
   Copyright,
 } from '@noths/global-components'
+import styled from 'styled-components'
 import './layout.css'
+
+const Content = styled.section`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -38,7 +46,7 @@ const Layout = ({ children }) => (
         <Styles />
         <Header />
         <Navigation />
-        {children}
+        <Content>{children}</Content>
         <Footer />
         <Copyright />
       </>
