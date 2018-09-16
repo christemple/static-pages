@@ -1,26 +1,9 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Static pages
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+Static page app using Gatsby with Contentful CMS integration + deployment with Netlify on merge to master
 
-## Install
+[https://elegant-kepler-23bc86.netlify.com/](https://elegant-kepler-23bc86.netlify.com/)
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+Styled-components
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+Imgix for image manipulation (Includes support for image rendering on the fly i.e reponsive/styled/text-overlay images)

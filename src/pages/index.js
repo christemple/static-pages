@@ -28,7 +28,7 @@ const Products = styled(Content)`
 `
 
 const Product = styled.div`
-  width: 100px;
+  width: 150px;
 `
 
 const ReviewOverview = styled(Content)`
@@ -59,7 +59,7 @@ const IndexPage = () => (
             node {
               id
               image {
-                resolutions(width: 100) {
+                resolutions(width: 150) {
                   width
                   height
                   src
